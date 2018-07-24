@@ -25,6 +25,7 @@ sort_list = sorted(student_list)
 # This code belongs to Difu Wu
 print(dict(Student("Amy", "3.0", "18").__dict__))
 
+# This idea comes from Henry Liu
 student_list = sorted(student_list, key=lambda x: x.age)
 
 print(sort_list)
